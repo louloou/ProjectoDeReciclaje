@@ -15,6 +15,9 @@ h1, h2, h3{
 #contacto{
     background-color: #90a39d;
 }
+#imagenContacto{
+    width: 150px;
+}
 .card {
     border: 3px #8eafa5;
     background-color: white;
@@ -31,6 +34,9 @@ h1, h2, h3{
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
+}
+#textoContacto{
+    color: blanchedalmond;
 }
 #Link{
     margin: 30px;border-radius: 10px;
