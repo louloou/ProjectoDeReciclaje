@@ -1,7 +1,7 @@
 body {
     background: #b1ccc4;
 }
-h1, h2 {
+h1, h2, h3{
     color:rgb(63, 63, 63);
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -12,31 +12,37 @@ h1, h2 {
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
+#contacto{
+    background-color: #90a39d;
+}
 .card {
     border: 3px #8eafa5;
     background-color: white;
-    padding: 150 px;
+    padding: 250 px;
     width: 650px;
-    height: 360px;
+    height: 500px;
     text-align: center;
-    margin: 25px;border-radius: 10px;
+    margin: 30px;border-radius: 20px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
     overflow: hidden;
 }
-
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
-
+#Link{
+    margin: 30px;border-radius: 10px;
+    background-color: #90a39d;
+}
 li {
     text-align: center;
     margin: 5px;
 }
-
+h4{
+    text-align: center;
+}
 .card-tittle{
  font-size: 25px;
     color:rgb(63, 63, 63);
@@ -45,3 +51,6 @@ li {
 .container-cards {
     display: flex;
 }
+ img{
+    width: 300px;
+ }
